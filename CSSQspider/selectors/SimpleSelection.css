@@ -1,0 +1,33 @@
+/* * Simple Selectors */
+/* ? Tag Name */
+h1{
+    color:white;
+    background-color: teal;
+}
+
+h2{
+    color: wheat;
+    background-color: teal;
+}
+
+/* ! Grouping */
+h3,div{
+    color: aquamarine;
+    background-color: violet;
+}
+
+/* ! Universal(*) */
+*{
+    color: thistle;
+    background-color: skyblue;
+}
+
+/* ! Id case */
+#demo{
+    color: thistle;
+    background-color: skyblue;
+}
+#demo2{
+    color: thistle;
+    background-color: skyblue;
+}
