@@ -1,8 +1,28 @@
 /* Combinator Selector  */
 /* 
-! Descendent
+! Descendent ( )
+* The symbol used it space
+It will target all the descendents
+It will target all the children , grand children , great grand children and so on
 */
 
+/* 
+! Direct Child  (>)
+* The symbol used it > (Greater than)
+It will target all the children
+*/
+
+/* 
+!Adjacent(+)
+* It will one element which are acting as siblings
+* It will only after element not before
+*
+*/
+/* 
+! General (~) 
+* It will all element which are acting as siblings
+* It will only after element not before
+*/
 section p{
     color: white;
     background-color: purple;
@@ -11,4 +31,15 @@ section p{
 article >p{
     color: white;
     background-color: navajowhite;
+}
+
+
+article + p{
+    color:thistle;
+    background-color: tomato;
+}
+
+section + article{
+    color: bisque;
+    background-color: slategrey;
 }
