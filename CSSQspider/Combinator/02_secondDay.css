@@ -1,0 +1,14 @@
+/* Combinator Selector  */
+/* 
+! Descendent
+*/
+
+section p{
+    color: white;
+    background-color: purple;
+}
+
+article >p{
+    color: white;
+    background-color: navajowhite;
+}
