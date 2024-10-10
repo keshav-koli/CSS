@@ -19,3 +19,23 @@ h3::selection{
 li::marker{
     color:rgb(148, 23, 7)
 }
+
+/* !----------------------------------------------------- */
+
+#Info{
+    display: none;
+}
+
+input:checked~#Info{
+    display: block;
+}
+
+img[alt=lion]{
+    height: 500px;
+    width: 500px;
+}
+
+input[name="userEmail"]{
+    height: 400px;
+    width: 300px;
+}
