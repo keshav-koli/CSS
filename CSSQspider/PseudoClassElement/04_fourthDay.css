@@ -1,0 +1,21 @@
+p::before{
+    content: "Mr. ";
+}
+p::after{
+    content: ",you have got job";
+}
+h3::first-letter{
+    color:red;
+    font-size: 50px;
+}
+
+h3::first-line{
+    color: green;
+}
+h3::selection{
+    color:white;
+    background-color: rgb(73, 73, 20);
+}
+li::marker{
+    color:rgb(118, 23, 7)
+}
