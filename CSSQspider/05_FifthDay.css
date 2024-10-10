@@ -1,0 +1,38 @@
+p {
+  color: blue;
+  text-align: left;
+  /* ? It will specify where to align the content in a webpage */
+  /* * Start,center,end,justify,left,right */
+  text-transform: capitalize;
+  /*
+    * normal(d),lowercase,uppercase,capitalize
+    ! text-decoration:text-decoration-line text-decoration-style text-decoration-color
+    *text-decoration-line:underline
+    *underline,overline,line-through
+    
+    *text-decoration-style:double
+    *solid(*),dotted,dashed,double,wavy
+
+    *text-decoration-color:brown
+    *any color (assignme color/black)
+    */
+  text-decoration: underline dotted maroon;
+  text-indent: 50px;
+  text-wrap: wrap;
+  /* ? it will specify to wrap the content to next  line or not
+    * values :wrap(d),nowrap
+     */
+  letter-spacing: 5px;
+  word-spacing: 50px;
+  line-height: 25px;
+
+
+}
+h1 {
+  text-align: center;
+  text-shadow: 4px 3px 2px gray;
+
+
+  /*! text-shadow : x-axis y-axis blurness color
+   */
+}
