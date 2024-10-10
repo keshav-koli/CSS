@@ -43,3 +43,8 @@ section + article{
     color: bisque;
     background-color: slategrey;
 }
+
+section ~ aside{
+    color: whitesmoke;
+    background-color: springgreen;
+}

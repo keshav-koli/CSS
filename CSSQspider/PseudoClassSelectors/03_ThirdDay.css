@@ -1,0 +1,55 @@
+h1:hover{
+    color: white;
+    background-color: blue;
+}
+
+#box{
+    background-color: crimson;
+    height: 150px;
+    width: 150px;
+}
+#box:hover{
+    height: 200px;
+    width:100px;
+    background-color: blue;
+}
+
+section p:first-child{
+    color: white;
+    background-color: teal;
+}
+section p:last-child{
+    color:white;
+    background-color: purple;
+}
+section p:nth-child(6){
+    color: white;
+    background-color: red;
+}
+
+#container1 p:nth-child(2),#container1 p:nth-child(4),#container1 p:nth-child(6),#container1 p:nth-child(8){
+    color: white;
+    background-color: rgb(65, 65, 4);
+}
+
+#container1 p:nth-child(even){
+    color: white;
+    background-color: rgb(65, 65, 4);
+}
+
+#mainContainer :last-of-type{
+    color: white;
+    background-color: blue;
+}
+
+/* ? unvisted */
+a:link{
+    color: hotpink;
+}
+a:visited{
+    color: yellow;
+}
+
+a:active{
+    color: goldenrod;
+}
