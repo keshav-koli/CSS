@@ -1,0 +1,17 @@
+
+#ChessBox tr:nth-child(even) td:nth-child(odd) {
+    background-color: bisque;
+}
+#ChessBox tr:nth-child(odd) td:nth-child(even) {
+    background-color: bisque;
+}
+#ChessBox tr:nth-child(odd) td:nth-child(odd) {
+    background-color: chocolate;
+}
+#ChessBox tr:nth-child(even) td:nth-child(even) {
+    background-color: chocolate;
+}
+#ChessBox tr td:hover{
+    background-color: rgb(185, 107, 47) !important;
+
+}

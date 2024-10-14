@@ -1,0 +1,12 @@
+#SecondTable tr:first-child {
+    color: white;
+    background-color: rgb(113, 18, 230);
+}
+
+#SecondTable tr td:nth-child(odd) {
+  background-color: rgb(128, 128, 128, 0.126);
+}
+#SecondTable tr td button:last-child {
+  color: white;
+  background-color: rgb(113, 18, 230);
+}

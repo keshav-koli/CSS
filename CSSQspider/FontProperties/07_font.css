@@ -1,0 +1,47 @@
+/* !Font Properties 
+*  1.Font -size
+*  2.Font-style
+*  3.Font-weight
+*  4.Font-family
+*  5.Font-varient
+*/
+
+p {
+  font-size: 22px;
+  /* *xx-small,x-small,small,normal,medium,large,larger,x-large,xx-large */
+
+  font-weight: 600;
+  /* * normal ,bold,100 to 900*/
+  font-style: italic;
+  /* * normal,italic/oblique */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+}
+#font1 {
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#font2 {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+#font3 {
+  font-family: "Baloo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+#font4 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+}
+#font5 {
+  font-family: "Martel Sans", serif;
+  font-weight: 600;
+  font-style: normal;
+}

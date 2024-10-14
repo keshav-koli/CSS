@@ -15,16 +15,3 @@
 #FirstTable tr:hover{
     border: 2px solid black;
 }
-
-#ChessBox tr:nth-child(even) td:nth-child(odd) {
-    background-color: bisque;
-}
-#ChessBox tr:nth-child(odd) td:nth-child(even) {
-    background-color: bisque;
-}
-#ChessBox tr:nth-child(odd) td:nth-child(odd) {
-    background-color: chocolate;
-}
-#ChessBox tr:nth-child(even) td:nth-child(even) {
-    background-color: chocolate;
-}
