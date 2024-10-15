@@ -4,7 +4,7 @@
     /* border:5px dotted maroon; */
     /* * border : border-width border-style border-color */
     border-left: 13px dashed pink;
-    border-right: 13px dashed rebeccapurple;
-    border-top:13px dashed palevioletred;
-    border-bottom:13px dashed plum;
+    border-right: 13px dotted rebeccapurple;
+    border-top:13px double palevioletred;
+    border-bottom:13px solid plum;
 }
