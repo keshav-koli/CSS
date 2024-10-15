@@ -1,0 +1,28 @@
+#fifthTable{
+    width: 500px;
+}
+
+#fifthTable tr:first-child{
+    color: white;
+    background-color: black;
+}
+#fifthTable tr:nth-child(2){
+    color: white;
+    background-color: blue;
+}
+#fifthTable tr:nth-child(3){
+    color: white;
+    background-color: green;
+}
+#fifthTable tr:nth-child(4){
+    color: white;
+    background-color: yellow;
+}
+#fifthTable tr:nth-child(5){
+    color: white;
+    background-color: red;
+}
+#fifthTable tr:nth-child(6){
+    color: white;
+    background-color: cyan;
+}

@@ -1,0 +1,13 @@
+#deprecated{
+    color:blue;
+    background-color: lightblue;
+}
+
+.yes{
+    color: green;
+    background-color: lightgreen;
+}
+.no{
+    color: red;
+    background-color: lightcoral;
+}
