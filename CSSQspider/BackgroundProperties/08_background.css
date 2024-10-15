@@ -1,0 +1,8 @@
+#container{
+    height: 1000px;
+    width:1000px;
+    background-color: red;
+    background-image: url(../../Media/sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
