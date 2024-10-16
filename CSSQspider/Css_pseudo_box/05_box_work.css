@@ -1,4 +1,4 @@
-#deprecated{
+/* #deprecated{
     color:blue;
     background-color: lightblue;
 }
@@ -10,4 +10,12 @@
 .no{
     color: red;
     background-color: lightcoral;
+} */
+* {
+  background-color: black;
+  color: white;
+}
+#fourthTable tr td:nth-child(3) {
+  background-color: green;
+  color: white;
 }

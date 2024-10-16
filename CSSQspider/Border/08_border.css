@@ -7,4 +7,19 @@
     border-right: 13px dotted rebeccapurple;
     border-top:13px double palevioletred;
     border-bottom:13px solid plum;
+    /* 
+    ? border-top-left-radius
+    ? border-top-right-radius
+    ? border-bottom-left-radius
+    ? border-bottom-left-radius
+    */
+    /* border-radius:10px  */  /*all by one way*/
+    border-radius: 10px 20px 300px 40px;/*short hand of border-radius*/
+}
+
+table{
+    border-spacing: 10px;
+    /* *it is equivalent to cellspacing attribute */
+    border-collapse: collapse;
+    /* *separate,collapse */
 }

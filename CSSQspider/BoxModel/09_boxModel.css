@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+h1{
+    margin: 10px;
+    border:1px solid black;
+    padding:20px;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    border:solid;
+    padding :10px 20px 30px 40px;
+    /* TOP RIGHT BOTTOM LEFT */
+    margin:10px 20px 30px ;
+    /* TOP RIGTH/LEFT BOTTOM */
+    padding: 10px 20px;
+    /* TOP/BOTTOM LEFT/RIGHT */
+    margin:10px;
+}
