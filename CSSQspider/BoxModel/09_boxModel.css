@@ -1,22 +1,99 @@
-*{
-    margin:0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-h1{
-    margin: 10px;
-    border:1px solid black;
-    padding:20px;
+h1 {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 20px;
 }
-#box{
-    height: 300px;
-    width: 300px;
-    background-color: antiquewhite;
-    border:solid;
-    padding :10px 20px 30px 40px;
-    /* TOP RIGHT BOTTOM LEFT */
-    margin:10px 20px 30px ;
-    /* TOP RIGTH/LEFT BOTTOM */
-    padding: 10px 20px;
-    /* TOP/BOTTOM LEFT/RIGHT */
-    margin:10px;
+#box {
+  height: 300px;
+  width: 300px;
+  background-color: antiquewhite;
+  border: solid;
+  padding: 10px 20px 30px 40px;
+  /* TOP RIGHT BOTTOM LEFT */
+  margin: 10px 20px 30px;
+  /* TOP RIGTH/LEFT BOTTOM */
+  padding: 10px 20px;
+  /* TOP/BOTTOM LEFT/RIGHT */
+  margin: 10px;
+}
+
+/* !================================== */
+#Navcontainer {
+  background-color: bisque;
+}
+.item {
+  display: inline-block;
+  padding: 20px 128px;
+  font-size: large;
+}
+.item:hover {
+  background-color: chocolate;
+  color: white;
+  cursor: pointer;
+}
+/*  ! ========================== */
+#CodingLab {
+  font-size: 20px;
+  background-color: #4170f4;
+  color: white;
+}
+
+#CodingLab div {
+  display: inline-block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-weight: 500;
+  padding: 13px 55px;
+}
+#CodingLab .extra {
+  font-size: x-large;
+}
+#CodingLab div:hover {
+  color: black;
+  cursor: pointer;
+}
+/* *=================================== */
+#CodingLab_Pro {
+  background-color: #4170f4;
+  color: white;
+  font-weight: 500;
+  padding: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+  font-size: 20px;
+}
+
+#CodingLab_Pro .logo {
+  display: inline-block;
+  font-weight: 500;
+}
+
+#CodingLab_Pro .options {
+  display: inline-block;
+  margin-left: 208px;
+}
+
+#CodingLab_Pro .options div {
+  display: inline-block;
+  padding: 0px 30px;
+}
+#CodingLab_Pro .options div:hover {
+  text-decoration: underline;
+  color: bisque;
+  cursor: pointer;
+}
+#CodingLab_Pro .icons {
+  display: inline-block;
+  margin-left: 390px;
+}
+#CodingLab_Pro .icons i {
+  padding: 0px 10px;
+}
+
+#CodingLab_Pro .icons i:hover {
+  color: black;
+  cursor: pointer;
 }
