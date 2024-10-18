@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  height: 500px;
+  width: 800px;
+  border: solid red;
+  background-color: bisque;
+  margin: 100px auto;
+}
+div {
+  height: 100px;
+  width: 100px;
+  border: solid;
+  background-color: chocolate;
+  display: inline-block;
+}
+
+section :nth-child(1) {
+  background-color: red;
+}
+section :nth-child(2) {
+  background-color: blue;
+  /* position: relative;
+  top:50px */
+}
+section :nth-child(3) {
+  background-color: gold;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+
+}
+section :nth-child(4) {
+  background-color: teal;
+}
