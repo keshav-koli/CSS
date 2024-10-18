@@ -1,17 +1,17 @@
-/* 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-section {
+#container {
   height: 500px;
   width: 800px;
   border: solid red;
   background-color: bisque;
   margin: 100px auto;
 }
-div {
+#container div {
   height: 100px;
   width: 100px;
   border: solid;
@@ -19,33 +19,33 @@ div {
   display: inline-block;
 }
 
-section :nth-child(1) {
+#container :nth-child(1) {
   background-color: red;
 }
-section :nth-child(2) {
+#container :nth-child(2) {
   background-color: blue;
-  /* position: relative;
+   position: relative;
   top:50px 
 }
-section :nth-child(3) {
+#container :nth-child(3) {
   background-color: gold;
   position: absolute;
   top: 10px;
   left: 50px;
 
 }
-section :nth-child(4) {
+#container :nth-child(4) {
   background-color: teal;
-} */
+} 
 
 #navBar1{
   background-color: indianred;
-  position: sticky;
-  top:0px
+  position: fixed;
+  top: 0px;
 }
 #navBar1 div{
   display: inline-block;
-  padding: 10px 123px;
+  padding: 10px 127px;
   color:white;
 }
 #navBar1 div:hover{
@@ -56,8 +56,8 @@ section :nth-child(4) {
   padding: 10px 50px;
   background-color: teal;
   color: white;
-  border-radius: 5px;
-  position: fixed;
+  border-radius: 15px;
+  position: sticky;
   bottom: 50px;
   right:20px;
   font-size: 20px;
