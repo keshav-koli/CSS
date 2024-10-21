@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar1 {
+  background-color: #0d6efd;
+  color: white;
+  padding: 15px;
+}
+
+#navbar1 div{
+    display: inline-block;
+    padding: 0px 10px;
+}
+#navbar1 .logo{
+    font-size: 20px;
+}
+#navbar1 .About{
+    margin-left: 1200px;
+}
+
+
+#navbar2{
+  background-color: #212529;
+  color: #667180;
+  padding: 15px;
+}
+#navbar2 div{
+  display: inline-block;
+  margin: 0px 5px;
+}
+#navbar2 .middle_item{
+  padding: 0px 500px;
+  color: white;
+  font-size: 20px;
+}
+#navbar2 .right_item{
+  margin-left: 35px;
+}
+#navbar3{
+  color: #667180;
+  padding: 15px;
+
+}
+#navbar3 div{
+  display: inline-block;
+}
+#navbar3 .left_item{
+  margin-right: 580px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+#navbar3 .middle_item div{
+  padding: 15px;
+}
+#navbar3 .right_item{
+  margin-left: 390px;
+
+}
+#navbar3 .right_item div{ 
+padding: 0px 15px;
+}
+#navbar4 {
+  color: #667180;
+  padding-left: 600px !important;
+  padding: 18px;
+}
+#navbar4 div{
+  display: inline-block;
+  padding: 0px 15px;
+}
+#navbar4 .first_item{
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+#navbar5{
+  background-color: #0D6EFD;
+  color: #68AEFE;
+  padding: 20px;
+}
+#navbar5 div{
+  display: inline-block;
+}
+#navbar5 .left_item{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 650px;
+}
+#navbar5 .middle_item div{
+  margin:0px 10px ;
+}
+
+#navbar6{
+  padding: 25px;
+  color: #667180;
+}
+
+#navbar6 div{
+  display: inline-block;
+}
+#navbar6 .left_item{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 950px;
+}
+#navbar6 .right_item div{
+  padding: 0px 12px;
+  margin-left: 20px;
+}
+#navbar7{
+  background-color: #212529;
+  padding: 25px;
+  color: #667180;
+}
+#navbar7 div{
+  display: inline-block;
+}
+#navbar7 .left_item{
+  margin-left: 10px;
+  margin-right: 950px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+#navbar7 .right_item {
+  margin-left:200px ;
+}
+#navbar7 .right_item div{
+  padding: 0px 12px;
+}

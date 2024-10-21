@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#food_container{
+    background-color: #FECD64;
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    left: 255px;
+}
+img[alt="Burger"]{
+    position: absolute;
+    z-index: 3;
+    top: 142px;
+    left: 507px;
+}
+img[alt="Drink"]{
+    position: absolute;
+    z-index: 2;
+    top: 14px;
+    left: 770px;
+}
+img[alt="French"]{
+    position: absolute;
+    top: 56px;
+    left: 355px;
+}
+ .circle{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 309px;
+    z-index: 4;
+    left: 354px;
+ }
+ .dash{
+    height: 170px;
+    width: 170px;
+    color: white;
+    border-radius: 50%;
+    border: dashed;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+ }
+ .dash h2{
+    position: absolute;
+    top: 66px;
+    font-size: 65px;
+    left: 28px;
+ }
+ .dash h3{
+    position: absolute;
+    font-size: 50px;
+    top: 26px;
+    left: 28px;
+ }
