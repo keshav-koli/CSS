@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container {
+    height: 50px;
+    color: white;
+    display: flex;
+}
+#container div{
+    border:2px solid black ;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container :nth-child(1){
+    background-color: orange;
+}
+#container :nth-child(2){
+    background-color: white;
+    color: blue;
+
+}
+#container :nth-child(3){
+    background-color: green;
+
+}
