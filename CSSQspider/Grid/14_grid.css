@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: grid;
+    height: 500px;
+    width: 800px;
+    background-color: cadetblue;
+    border: solid;
+    grid-template-columns: 150px 150px 250px;
+    grid-template-columns: 150px;
+    grid-template-columns: repeat(3,150px);
+    grid-template-columns: repeat(3,auto);
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    /* ?It will specify the no. of column along with width of each column */
+    grid-template-rows: repeat(5,2fr);
+    /* ? It will specify the no. of rows along with height of each row  */
+    column-gap: 15px;
+    row-gap: 5px;
+    gap: 5px 15px;
+    gap:10px;
+    /* ?It will specify the space b/w the grid cell */
+}
+#container div{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    background-color: bisque;
+}
