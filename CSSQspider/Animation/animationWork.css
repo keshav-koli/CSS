@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: solid;
+    /* transform: translateX(0px); */
+    animation-name: demo4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes demo4 {
+    0%{
+        border-radius: 0%;
+        transform: translate(0px,0px) 
+    }
+    12%{
+        border-radius: 50%;
+        transform: translate(550px,180px);
+    }
+    26%{
+        border-radius: 0%;
+        transform: translate(1150px,0px);
+    }
+    40%{
+        border-radius: 50%;
+        transform: translate(550px,180px);
+    }
+    55%{
+        border-radius: 0%;
+        transform: translate(1150px,500px);
+    }
+    70%{
+        border-radius: 50%;
+        transform: translate(550px,180px);
+    }
+    83%{
+        border-radius: 0%;
+        transform: translate(0px,500px);
+    }
+    93%{
+        border-radius: 50%;
+        transform: translate(550px,180px);
+    }
+    100%{
+        border-radius: 0%;
+        transform: translate(0px,0px);
+    }
+}
