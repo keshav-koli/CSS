@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:red;
+}
+p{
+    color: fuchsia;
+}
+@media screen {
+    h1{
+        color: hotpink;
+    }
+    p{
+        color: palegreen;
+    }
+}
+@media print {
+    h1{
+        color: palevioletred;
+    }
+    p{
+        color: lavender;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1600px) {
+    body{
+        background-color: lightcyan;
+    }
+    h1::after{
+        content: " : Laptop View";
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px) {
+    body{
+        background-color: yellowgreen;
+    }
+    h1::after{
+        content: " : Tablet View";
+    }
+}
+@media screen and (min-width:0px) and (max-width:500px) {
+    body{
+        background-color: rebeccapurple;
+    }
+    h1::after{
+        content: " : Mobile View";
+    }
+}

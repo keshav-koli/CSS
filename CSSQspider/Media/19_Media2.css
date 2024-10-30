@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    background-color: violet;
+}
+#navbar div{
+    border:1px solid white;
+    flex:1;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:0px) and  (max-width:500px) {
+    #navbar{
+        flex-direction: column;
+    }
+}
+@media screen and (0px<=width<=500px) {
+    #navbar{
+        flex-direction: column;
+    }
+}
+@media screen and (orientation : portrait) {
+    #navbar{
+        flex-direction: column;
+    }
+}
