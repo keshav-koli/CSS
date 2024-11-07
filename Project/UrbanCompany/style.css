@@ -1,62 +1,151 @@
 @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* !Header */
-.navbar{
-    display: flex;
-    padding: 1rem 7rem;
+.navbar {
+  display: flex;
+  padding: 1rem 7rem;
 }
-.nav-image img{
-    padding: 12px;
+.nav-image img {
+  padding: 12px;
 }
-.nav-item{
-    display: flex;
-    margin-left: 1rem;
-    font-size: 14px;
-    height: 4rem;
-    font-weight: 400;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgba(84, 84, 84, 1.00);
-    padding-top: 8px ;
+.nav-item {
+  display: flex;
+  margin-left: 1rem;
+  font-size: 14px;
+  height: 4rem;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: rgba(84, 84, 84, 1);
+  padding-top: 8px;
 }
-.nav-item div{
-    margin-left: 1rem;
-    padding: 8px 16px 12px;
+.nav-item div {
+  margin-left: 1rem;
+  padding: 8px 16px 12px;
 }
-.nav-search{
-    display: flex;
-    height: 4rem;
-    padding-top: 0.3rem;
-    margin-left: 12rem;
+.nav-search {
+  display: flex;
+  height: 4rem;
+  padding-top: 0.3rem;
+  margin-left: 12rem;
 }
 /* ? how to add font-awesome icon in placeholder*/
 /**  1. import the font-awesome link  */
 /**  2. ADD unicode of icon followed with "&#x" */
 /**  3. add font-awesome font */
-.nav-search div{
-    margin-top: 0.3rem;
-    margin: 0rem 1rem;
-    border: 0.01px solid gray;
-    height: 3rem;
-    border-radius: 0.3rem;
+.nav-search div {
+  margin-top: 0.3rem;
+  margin: 0rem 1rem;
+  border: 0.01px solid gray;
+  height: 3rem;
+  border-radius: 0.3rem;
 }
-.nav-search div input{
-    padding: 1.3rem 0.5rem;
-    border: 0px solid gray;
-    width: 17rem;
-    height: 1rem;
-    text-align: center;
-    font-family:"FontAwesome"!important;
+.nav-search div input {
+  padding: 1.3rem 0.5rem;
+  border: 0px solid gray;
+  width: 17rem;
+  height: 1rem;
+  text-align: center;
+  font-family: "FontAwesome" !important;
 }
-.nav-search div input[placeholder]{
+.nav-search div input[placeholder] {
 }
-.nav-icon{
-    display: flex;
-    padding-top:8px;
+.nav-icon {
+  display: flex;
+  padding-top: 8px;
 }
-.nav-icon i{
-    margin: 10px;
+.nav-icon i {
+  margin: 10px;
+}
+/* *========================================================== */
+.first-container {
+  display: flex;
+  padding: 2rem 7rem;
+  /* border: solid; */
+  border-top: 0.1px solid #e3e3e3;
+}
+.heading-text {
+  border: solid;
+  height: 40rem;
+  margin-right: 12rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 40%;
+  padding: 1rem 2rem;
+}
+.heading-text h1 {
+  font-weight: 600;
+}
+.section-image {
+  width: 50%;
+  height: 50%;
+}
+.section-image img {
+  width: 100%;
+}
+.services {
+  margin-top: 5rem;
+  border: 0.1px solid #e3e3e3;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.looking-for p {
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(84, 84, 84, 1);
+  text-decoration-line: none;
+  text-transform: none;
+  font-weight: 600;
+  text-align: left;
+}
+.spa-container {
+  display: flex;
+}
+.women-spa {
+  margin-top: 2rem;
+  margin-right: 1rem;
+  border-radius: 0.3rem;
+  width: 8rem;
+  background-color: #f5f5f5;
+}
+.women-spa img {
+  padding-left: 2rem;
+}
+.spa-container p {
+  padding-left: 0.5rem;
+
+  font-size: 0.7rem;
+  height: 2rem;
+  background-color: white;
+}
+.cleaning-container-1 {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  width: 27rem;
+}
+.cleaning-container-2 {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  width: 27rem;
+}
+.cleaning-item {
+  background-color: #f5f5f5;
+  border-radius: 0.3rem;
+  width: 18rem;
+  height: 4rem;
+  padding: 0.8rem;
+  display: flex;
+  margin-right: 1rem;
+}
+.cleaning-item img {
+  padding-bottom: 0.6rem;
+  width: 40%;
+  height: 150%;
 }
