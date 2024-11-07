@@ -69,8 +69,7 @@
   border-top: 0.1px solid #e3e3e3;
 }
 .heading-text {
-  border: solid;
-  height: 40rem;
+  height: 50rem;
   margin-right: 12rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 40%;
@@ -84,7 +83,7 @@
   height: 50%;
 }
 .section-image img {
-  width: 100%;
+  width: 102%;
 }
 .services {
   margin-top: 5rem;
@@ -148,4 +147,20 @@
   padding-bottom: 0.6rem;
   width: 40%;
   height: 150%;
+}
+.rating{
+    display: flex;
+    margin-top: 2rem;
+}
+.rating-text{
+    margin-right: 5rem;
+    display: flex;
+}
+
+.rating-text .rate{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.rating-text p{
+    font-size: 0.8rem;
 }
