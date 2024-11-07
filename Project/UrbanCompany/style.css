@@ -52,8 +52,6 @@
   text-align: center;
   font-family: "FontAwesome" !important;
 }
-.nav-search div input[placeholder] {
-}
 .nav-icon {
   display: flex;
   padding-top: 8px;
@@ -179,3 +177,30 @@
   width: 115%;
   height: 100%;
 }
+/* *======================================================== */
+.third-container {
+
+}
+.third-container h2{
+  padding: 2rem 9rem;
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+
+}
+.third-container-image div {
+  padding: 2rem 0.75rem;
+}
+.third-container-image img {
+  border-radius: 0.5rem;;
+}
+.third-container-image {
+  display: flex;
+  margin: 0rem 8rem;
+}
+.third-container-image p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* *======================================================== */
