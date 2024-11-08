@@ -492,13 +492,13 @@
   object-fit: cover;
   width: 100%;
 }
-.huge-text3 img{
+.huge-text2 img{
   height: 80.8%;
   width: 100%;
 }
 .fourteenth-container-image {
   display: flex;
-  margin: 0rem 8rem;
+  margin: 1rem 8rem;
 }
 .fourteenth-container-image p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
