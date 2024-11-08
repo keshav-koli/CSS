@@ -317,7 +317,7 @@
   font-weight: 600;
 }
 .eighth-container-image div {
-  padding: 1rem 0rem;
+  padding-top: 0.5rem;
   margin-right: 1.5rem;
   border-radius: 0.5rem;
   width: 15rem;
@@ -326,9 +326,13 @@
 }
 .eighth-container-image img {
   border-radius: 0.5rem;
-  padding-top: 3rem;
-  height: 100%;
+  padding-top: 1rem;
+  height: 90%;
   object-fit: cover;
+  width: 100%;
+}
+.huge-text img{
+  height: 81%;
   width: 100%;
 }
 .eighth-container-image {
@@ -336,6 +340,167 @@
   margin: 0rem 8rem;
 }
 .eighth-container-image p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding-left: 1.5rem;
+  font-weight: 500;
+}
+/** =========================================================== */
+
+.ninth-container{
+  padding: 1rem;
+  margin-top: 8rem;
+  padding-left: 9rem;
+}
+.ninth-container img{
+  width: 92%;
+}
+/* *========================================================= */
+
+.tenth-container h2{
+  padding: 2rem 9rem;
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.tenth-container-image div {
+  padding: 1rem 0rem;
+  margin-right: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #e3e3e3;
+}
+.tenth-container-image img {
+  border-radius: 0.5rem;
+  padding-top: 1rem;
+  height: 97%;
+  object-fit: cover;
+  width: 100%;
+}
+.huge-text1 img{
+  height: 89%;
+  width: 100%;
+}
+.tenth-container-image {
+  display: flex;
+  margin: 0rem 8rem;
+}
+.tenth-container-image p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+/* *========================================================= */
+.eleventh-container h2{
+  padding: 2rem 9rem;
+  font-size: 36px;
+  margin-top: 8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+
+}
+.eleventh-container-image div {
+  padding: 2rem 0.75rem;
+}
+.eleventh-container-image img {
+  border-radius: 0.5rem;;
+}
+.eleventh-container-image {
+  display: flex;
+  margin: 0rem 8rem;
+}
+.eleventh-container-image i{
+ font-size: 0.6rem;
+ color: #545454;
+}
+.eleventh-container-image p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.price{
+  font-weight: 300 !important;
+  font-size: 14px;
+}
+/* *========================================================= */
+.twelth-container h2{
+  padding: 0rem 9rem;
+  margin-top: 5rem;
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}
+.twelth-container .subtopic{
+  color: #545454;
+  font-size: 16px;
+  margin: 2rem 0rem;
+  margin-left: 8rem;
+  padding: 1rem;
+}
+.twelth-container-image div {
+  padding: 1rem 0rem;
+  margin-right: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #e3e3e3;
+}
+.twelth-container-image img {
+  border-radius: 0.5rem;
+  padding-top: 3rem;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.twelth-container-image {
+  display: flex;
+  margin: 0rem 8rem;
+}
+.twelth-container-image p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding-left: 1rem;
+  font-weight: 500;
+}
+/* *========================================================= */
+.thirteenth-container{
+  padding: 1rem;
+  margin-top: 8rem;
+  padding-left: 9rem;
+}
+.thirteenth-container img{
+  width: 92%;
+}
+/* *========================================================= */
+.fourteenth-container h2{
+  padding: 2rem 9rem;
+  font-size: 36px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 5rem;;
+  font-weight: 600;
+}
+.fourteenth-container-image div {
+  padding-top: 0.5rem;
+  margin-right: 1.5rem;
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 15rem;
+  border: 0.1rem solid #e3e3e3;
+}
+.fourteenth-container-image img {
+  border-radius: 0.5rem;
+  padding-top: 1rem;
+  height: 90%;
+  object-fit: cover;
+  width: 100%;
+}
+.huge-text3 img{
+  height: 80.8%;
+  width: 100%;
+}
+.fourteenth-container-image {
+  display: flex;
+  margin: 0rem 8rem;
+}
+.fourteenth-container-image p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
   padding-left: 1rem;
