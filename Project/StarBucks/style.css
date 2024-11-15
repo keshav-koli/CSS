@@ -211,3 +211,63 @@
     height: 2.2rem;
     background-color: #00754A;
 }
+/* *=========================================================== */
+.fourth-container{
+    background-color: #EDEBE9;
+    margin-top: 3rem;
+}
+.fourth-card{
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+.fourth-card img{
+    width: 80rem;
+    height: 22rem;
+    margin-left: 5rem;
+    background-size: cover;
+    border-radius: 0.5rem;
+}
+
+.fourth-text  {
+    display: flex;
+    padding: 1rem;
+    color: #1E3932;
+    padding-left: 7rem;
+    /* margin-top: 2rem; */
+}
+.fourth-text p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.fourth-text .text{
+    font-size: 0.81rem;
+    margin-left: 50rem;
+    margin-top: 1rem;
+    color: #00753A;
+}
+.image-text{
+color: white;
+position: relative;
+top: -195px;
+font-size: 2rem;
+font-weight: 600;
+left: 130px;
+}
+.image-text2{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.image-text3{
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: 12rem;
+    padding-top: 5px;
+    border-radius: 1rem;
+    position: relative;
+    top: 60px;
+    height: 2rem;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
