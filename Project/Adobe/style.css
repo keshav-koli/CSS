@@ -237,7 +237,7 @@ nav {
   margin-left: 3rem;
   width: 27rem;
   margin-top: 4rem;
-  height: 28.5rem;
+  height: 27.4rem;
   background-color: #ededed;
   border-radius: 25px;
 }
@@ -259,14 +259,14 @@ nav {
   background-color: #ededed;
 }
 .box3 .bold {
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   margin-left: 1rem;
   font-weight: 600;
   color: #322C2C;
   /* font-size: 1.3rem; */
 }
 .box3 .data1 {
-  margin-top: 0.5rem;
+  margin-top: 0.4rem;
   color: #2C2C2C;
   margin-left: 1rem;
   /* font-weight: 600; */
@@ -279,3 +279,47 @@ nav {
   margin-top: 1rem;
 }
 /* *================================================== */
+.footer-container{
+  display: flex;
+  /* border: solid; */
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: #FAFAFA;
+  
+}
+.footer-container div{
+  /* border: solid; */
+  margin: 1rem;
+  margin-right: 6rem;
+}
+.footer-container div li{
+  list-style-type: none;
+  font-size: 14px;
+  padding: 0.3rem;
+  color: #302929;
+  /* border: solid; */
+}
+.footer-container  .bold{
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  /* margin: 2rem 0rem; */
+}
+.features{
+  background-color: #FAFAFA;
+  display: flex;
+  color: #505050;
+  border-top: 1px solid #505050;
+  border-bottom: 1px solid #505050;
+  padding: 0.8rem 0rem;
+  font-size: 14px;
+  padding-left: 25rem;
+}
+.features img{
+  width: 2%;
+}
+.features p{
+  padding: 0rem 1rem;
+  font-weight: 600;
+  /* margin: 0.5rem; */
+}
