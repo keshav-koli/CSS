@@ -271,3 +271,11 @@ nav {
   margin-left: 1rem;
   /* font-weight: 600; */
 }
+/* *================================================== */
+.fourth-container{
+  text-align: center;
+}
+.fourth-container  p{
+  margin-top: 1rem;
+}
+/* *================================================== */
