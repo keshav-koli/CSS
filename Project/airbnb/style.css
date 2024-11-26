@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbar {
+  display: flex;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1.1rem;
+  height: 4rem;
+  color: #22222F;
+}
+ .Navbar .navlogo img {
+  width: 18%;
+  margin-left: 5rem;
+ }
+.Navbar .mid-Items {
+  display: flex;
+  margin-left: 11rem;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+.Navbar .mid-Items div{
+  margin-left: 2rem;
+}
+.Navbar .last-item {
+  display: flex;
+  margin-left: 10rem;
+  text-align: center;
+  align-items: center;
+}
+.Navbar .last-item  div{
+  margin-left: 3rem;
+}
+.Navbar .last-item i{
+  margin: 2rem;
+}
+.Navbar .right-item {
+  margin-left: 7rem;
+  border: 1px solid ;
+  border-radius: 15px;
+  align-items: center;
+  display: flex;
+}
+.Navbar .right-item i{
+  margin: 0rem 0.8rem;
+}
