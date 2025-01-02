@@ -1,0 +1,31 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* or */
+    text-align: center;
+    line-height: 100px;
+    
+
+    /* translate : It will change the position of an element  */
+
+    transform: translateX(450px);
+    transform: translateY(450px);
+    transform: translate(450px,450px);
+
+
+    /* Scale -: It will alter the size of an element  */
+    transform: scaleX(2);
+    transform: scaleY(2);
+    transform: scale(2,20);
+    
+    /* Rotate -: It will rotate the element  */
+    transform: rotateX(45deg);
+    transform: rotateY(180deg);
+    transform: rotate(45deg);
+
+}
